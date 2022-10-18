@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    gem_calculating (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  gem_calculating!
+
+BUNDLED WITH
+   2.2.3
