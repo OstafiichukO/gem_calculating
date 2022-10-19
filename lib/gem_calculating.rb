@@ -3,9 +3,9 @@
 require_relative "gem_calculating/version"
 
 # Calculator gem
-module GemCalculating
+module Calculator
   # Class for calculating
-  class Calculator
+  class Base
     # Adds two numbers
     def self.add(num1, num2) 
       num1 + num2
@@ -18,13 +18,13 @@ module GemCalculating
     rescue StandardError
     nil
     end
-    #Multiply two numbers
+    # Multiply two numbers
     def self.multiply(num1, num2)
       num1 * num2
     rescue StandardError
       nil
     end
-    #Divide two numbers
+    # Divide two numbers
     def self.divide(num1, num2)
       num1 / num2
     rescue StandardError
