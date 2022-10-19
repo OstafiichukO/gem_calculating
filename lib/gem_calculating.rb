@@ -5,9 +5,12 @@ require_relative "gem_calculating/version"
 # Calculator gem
 module GemCalculating
   # Class for calculating
-  class Base
+  class Calculator
     # Adds two numbers
-    def self.add(num1, num2) 
+    def self.add(num1, num2)
+      if validate_numbers(num1, num2) == true
+        return puts "Numbers is not valid"
+      end
       num1 + num2
     rescue StandardError
       nil

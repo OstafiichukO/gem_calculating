@@ -20,10 +20,10 @@ require 'gem_calculating'
 
 Then you can use the gem:
 
-Calculator::Base.add(2, 3)# => 5
-Calculator::Base.subtract(3, 2)# => 1
-Calculator::Base.multiply(2, 3)# => 6
-Calculator::Base.divide(4, 2)# => 2
+GemCalculating::Calculator.add(2, 3)# => 5
+GemCalculating::Calculator.subtract(3, 2)# => 1
+GemCalculating::Calculator.multiply(2, 3)# => 6
+GemCalculating::Calculator.divide(4, 2)# => 2
 
 ## Development
 
