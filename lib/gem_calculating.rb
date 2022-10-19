@@ -3,7 +3,7 @@
 require_relative "gem_calculating/version"
 
 # Calculator gem
-module Calculator
+module GemCalculating
   # Class for calculating
   class Base
     # Adds two numbers
