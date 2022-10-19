@@ -1,8 +1,6 @@
 # GemCalculating
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gem_calculating`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Basic calculator gem. Can add, subtract, multiply, and divide.
 
 ## Installation
 
@@ -16,7 +14,16 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+First you need to require the gem:
+
+require 'dubcalculator'
+
+Then you can use the gem:
+
+Calculator::Base.add(2, 3)# => 5
+Calculator::Base.subtract(3, 2)# => 1
+Calculator::Base.multiply(2, 3)# => 6
+Calculator::Base.divide(4, 2)# => 2
 
 ## Development
 
@@ -26,7 +33,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/gem_calculating.
+Bug reports and pull requests are welcome on GitHub at https://github.com/OstafiichukO/gem_calculating.
 
 ## License
 
