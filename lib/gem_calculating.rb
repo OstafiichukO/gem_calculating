@@ -1,8 +1,8 @@
-class GemCalculating
-  def hello
-    puts "Hello world, its calculator!"
-  end
-end
+# frozen_string_literal: true
 
-calculator = GemCalculating.new
-puts calculator.hello
+require_relative "gem_calculating/version"
+
+module GemCalculating
+  class Error < StandardError; end
+  # Your code goes here...
+end
