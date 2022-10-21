@@ -4,7 +4,7 @@ require_relative "lib/gem_calculating/version"
 
 Gem::Specification.new do |spec|
   spec.name = "gem_calculating"
-  spec.version = GemCalculating::VERSION
+  spec.version = Calculate::VERSION
   spec.authors = ["Oleksii Ostafiichuk"]
   spec.email = ["issimo333@gmail.com"]
 
