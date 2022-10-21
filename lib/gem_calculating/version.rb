@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module GemCalculating
+module Calculate
   VERSION = "0.1.2"
 end
